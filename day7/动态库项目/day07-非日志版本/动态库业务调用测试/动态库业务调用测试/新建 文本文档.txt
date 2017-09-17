@@ -1,0 +1,8 @@
+socketclient.lib socketclient.dll
+
+socketclient.lib：是对socketclient.dll的资源描述 
+	描述socketclient.dll中有哪些函数，已经具体的函数入口
+我们现在是把socketclient.dll加载到我们的工程中。
+
+我们是怎么加载的那？
+	我们是通过vs2010这个工具，加载。。。。。；

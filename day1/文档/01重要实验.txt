@@ -1,0 +1,17 @@
+
+int  main333()
+{
+	//
+	//2种方法，通过变量直接操作内存
+	//	通过内存编号操作内存
+
+	int i = 0;
+
+	printf("&i:%d\n", &i);
+
+	*((int *)(1245024)) = 10;
+	printf("i:%d", i);
+	printf("hello....\n");
+	getchar();
+	return 0;
+}

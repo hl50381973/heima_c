@@ -1,0 +1,11 @@
+//按照内存四区模型，画示意图 char *
+int main13()
+{
+	char buf[20]="aaaa";
+	char buf2[] = "bbbb";
+	
+	char *p1 = "111111";
+
+	char *p2 = malloc(100);
+	strcpy(p2, "3333");
+}

@@ -1,0 +1,51 @@
+﻿生成启动时间为 2014-4-23 15:05:43。
+     1>项目“E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\cryptproj.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\cryptproj.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt des.c tmain.c
+         tmain.c
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(99): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(120): warning C4013: “DesEnc_raw”未定义；假设外部返回 int
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(183): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(193): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(214): warning C4013: “DesDec_raw”未定义；假设外部返回 int
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(281): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(289): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(297): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         des.c
+         正在生成代码...
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(366): warning C4716: “movefile”: 必须返回一个值
+     1>e:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\tmain.c(400): warning C4716: “mainxxx”: 必须返回一个值
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cryptproj.exe.embed.manifest.res" Debug\cryptproj_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\Debug\cryptproj.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cryptproj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\Debug\cryptproj.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\Debug\cryptproj.lib" /MACHINE:X86 Debug\cryptproj.exe.embed.manifest.res
+         Debug\des.obj
+         Debug\tmain.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cryptproj.exe.embed.manifest" /manifest Debug\cryptproj.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         cryptproj.vcxproj -> E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\Debug\cryptproj.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\cryptproj.unsuccessfulbuild”。
+         正在对“Debug\cryptproj.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\01-work\09-就业班0415\day06\备课相关\cryptproj-文件加密项目\cryptproj\cryptproj.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.60
